@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PC 호환성 체크</title>
+    <style>
+        body {
+            margin-top: 200px;
+            text-align: center;
+        }
+        #btn {
+            text-align: right;
+            margin-bottom: 20px;
+            margin-right: 160px;
+        }
+        .grp {
+            width:30%;
+        }
+        table {
+            border: 5px solid black;
+            display: inline-block;
+        }
+        td {
+            border: 1px solid black;
+        }
+        input {
+            border: 0px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="btn">
+            <button id="init">초기화</button>
+            <button id="check">호환성체크</button>
+        </div>
+        <table>
+            <tr>
+                <td class="grp">분류</td>
+                <td>품목명</td>
+            </tr>
+            <tr>
+                <td class="grp">CPU</td>
+                <td>
+                    <input id="cpu">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">쿨러</td>
+                <td>
+                    <input id="cooler">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">메인보드</td>
+                <td>
+                    <input id="mainBorde">
+                </td>
+            </tr>
+                <td class="grp">메모리[RAM]</td>
+                <td>
+                    <input id="ram">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">그래픽[VGA]</td>
+                <td>
+                    <input id="vga">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">저장장치[HDD]</td>
+                <td>
+                    <input id="hdd">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">저장장치[SSD]</td>
+                <td>
+                    <input id="ssd">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">파워</td>
+                <td>
+                    <input id="power">
+                </td>
+            </tr>
+            <tr>
+                <td class="grp">케이스</td>
+                <td>
+                    <input id="case">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
